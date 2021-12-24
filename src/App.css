@@ -65,6 +65,7 @@
   width:45px;
   height: 45px;
   color: grey;
+  cursor: pointer;
 }
 /* Header  */
 
@@ -84,11 +85,13 @@
   color: white;
   font-family: "Montserrat", sans-serif;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .introText {
   padding-top: 50px;
   padding-left: 45px;
+  flex-grow: 2;
 }
 .introTextMain {
   margin-top: 50px;
@@ -102,12 +105,13 @@
   border-radius: 25%;
   width: 350px;
   margin-top: 60px;
-  margin-left: 400px;
+  align-self: flex-end;
+  flex-grow: 1;
+  margin-right: 50px;
+  /* margin-left: 400px; */
 
 }
-.homeImg {
-  
-}
+
 @media screen and (max-width: 1024px) {
   .jamesPicture {
     display: none;
@@ -115,12 +119,45 @@
 }
 /* Home Page */
 
+
+
+
+
 /* Projects Page */
 
-.projectsText {
+.projectsMain {
   margin-top: 10%;
-  font-size: 200px;
-  scroll-snap-type: x mandatory;
+  height: 100%;
 }
 
+.projectsTitle {
+  color: white;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Project Cards */
+.cardsMain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.mainCard {
+  outline: hotpink solid 3px;
+  margin: 50px;
+}
+
+.GameShackImg {
+  height: 200px;
+  width: 400px;
+}
+/* Project Cards */
+
 /* Projects Page */
+
+
