@@ -3,7 +3,7 @@ import jamesFace from '../IMG_6790.jpg'
 
 export default function Home() {
   return (
-    <div className="homeMain">
+    <main className="homeMain">
       <div className="welcomeText">
         <div className="introText">
           <main className="introTextMain" >
@@ -12,13 +12,18 @@ export default function Home() {
             <p> Welcome to my portfolio page!</p>
             </div>
             <p className="introSubText">
-                Please take a look around my website, you can see my past
-                projects and content details to contact me
+            <p>Please take a look around my website, </p>
+                
+            <p>
+            you can see my past projects and details to contact me
+            </p>
             </p>
           </main>
           
+          
         </div>
         <div className="homeImg">
+        
         <img
             src={jamesFace}
             alt="james"
@@ -27,6 +32,6 @@ export default function Home() {
           </div>
       </div>
       <div className="projectsText">THIS IS THE NEXT LOTS OF TEXT</div>
-    </div>
+    </main>
   );
 }
