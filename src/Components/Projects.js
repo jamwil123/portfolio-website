@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import ProjectCards from "../Components/ProjectCards";
 
 export default function Projects() {
-  let tag = '</>'
+  const myRef = useRef(null);
+  const executeScroll = () => myRef.current.scrollIntoView();
+  let tag = "</>";
   return (
     <main className="projectsMain">
       <div className="projectsTag">{tag}</div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaGithub } from 'react-icons/fa'
 
 
-export default function Header() {
+export default function Header(myRef) {
     return (
         <div className='headerMain'>
         <main className='firstThreeButtons'>
@@ -11,7 +11,7 @@ export default function Header() {
         <div className='headerTextName'>James Wilson </div>
         </Link>
         <Link to='/work' style={{ textDecoration: 'none' }}> 
-        <div className='headerTextWork'>Work</div>
+        <div className='headerTextWork' onClick={() => myRef.current.scrollIntoView()}>Projects</div>
         </Link>
         <Link to='/skills' style={{ textDecoration: 'none' }}> 
         <div className='headerTextSkills'>Skills</div>

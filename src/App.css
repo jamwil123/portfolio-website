@@ -67,6 +67,19 @@
   color: grey;
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+  .headerTextName {
+    color: white;
+    padding-left: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .headerTextSkills,
+.headerTextWork {
+  display: none;
+}
+
+  
+}
 /* Header  */
 
 
@@ -86,6 +99,10 @@
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-wrap: wrap;
+}
+
+.hiJames {
+  font-size: 20px;
 }
 
 .introText {
@@ -130,6 +147,7 @@
   height: 100%;
 }
 
+
 .projectsTitle,
 .projectsTag {
   color: white;
@@ -138,6 +156,10 @@
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
+}
+
+.projectsTitle {
+  margin-bottom: 200px;
 }
 
 .projectsTag {
@@ -191,5 +213,57 @@ font-size: 45px;
 /* Project Cards */
 
 /* Projects Page */
+
+
+/* Skills Page */
+.skillsMain {
+
+
+
+}
+.skillsTitle {
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  margin-top: 0px;
+  
+}
+
+.skillsChip {
+  height: 40px;
+  width: 40px;
+  color: white;
+  font-size: 60px;
+}
+
+.skillsCards {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+}
+
+.individualCard {
+  margin :10px;
+  font-size: 30px;
+  margin-right: 50px;
+  padding-right: 40px;
+  color: white;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+/* Skills Page */
 
 
