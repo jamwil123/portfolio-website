@@ -1,15 +1,21 @@
 [
   {
     "name": "Climbly",
-    "githublink": "https://github.com/jamwil123/mountain-list-app",
-    "giflink": "https://media1.tenor.com/images/a871aef61e1fc02f21977649e6c9091d/tenor.gif?itemid=24246786",
-    "staticlink": ""
+    "link": "https://github.com/jamwil123/mountain-list-app",
+    "giflink": "https://media1.tenor.com/images/db8f5661ec52b163551ab1b1ffc82590/tenor.gif?itemid=24250596",
+    "staticlink": "https://i.ibb.co/vXkZhTZ/Screenshot-2021-12-24-at-20-42-10.png"
   },
 
   {
     "name": "GameShack",
-    "githublink": "https://vibrant-khorana-82a362.netlify.app/",
-    "giflink": "https://im7.ezgif.com/tmp/ezgif-7-0b7f63878a.gif",
-    "staticlink": ""
+    "link": "https://github.com/jamwil123/game-shack",
+    "giflink": "https://media1.tenor.com/images/1fcab5775989c298f20abc2771ae1482/tenor.gif?itemid=24249424",
+    "staticlink": "https://i.ibb.co/SxHPp1R/Screenshot-2021-12-24-at-20-27-39.png"
+  },
+  {
+    "name": "GameShack Backend",
+    "link": "https://github.com/jamwil123/Board-Games-API/tree/main/be-nc-games",
+    "giflink": "https://media1.tenor.com/images/b16d67dc3b43edc4158e64402fe79538/tenor.gif?itemid=24249387",
+    "staticlink": "https://i.ibb.co/TRKkz2H/Screenshot-2021-12-24-at-20-31-51.png"
   }
 ]

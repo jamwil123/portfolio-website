@@ -18,7 +18,7 @@ export default function Header() {
         </Link>
         </main>
         
-        <FaGithub className='gitHubIcon' />
+        <FaGithub onClick={()=>{window.open('https://github.com/jamwil123')}} className='gitHubIcon' />
        
         </div>
     )

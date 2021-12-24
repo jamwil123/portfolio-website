@@ -1,12 +1,13 @@
-import React from 'react'
-import ProjectCards from '../Components/ProjectCards'
+import React from "react";
+import ProjectCards from "../Components/ProjectCards";
 
 export default function Projects() {
-    let text = '<Projects>'
-    return (
-        <main className='projectsMain'>
-            <div className='projectsTitle'>{text}</div>
-            <ProjectCards/>
-        </main>
-    )
+  let tag = '</>'
+  return (
+    <main className="projectsMain">
+      <div className="projectsTag">{tag}</div>
+      <div className="projectsTitle">Projects</div>
+      <ProjectCards />
+    </main>
+  );
 }
