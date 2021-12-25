@@ -6,14 +6,16 @@ export default function Skills() {
     return (
         <main className='skillsMain'>
         <div className='skillsTitle'>
+        <div>
         <FaMicrochip className='skillsChip'/>
         <h2 >Skills</h2>
+        </div>
         </div>
         <div className='skillsCards'>
             {skillsData.map((skill)=>{
                 return (
                     <div className='individualCard'>
-                    <FaCheckCircle/>
+                    <FaCheckCircle className='checkBox'/>
                     <h2 >{skill}</h2>
                     </div>
                 )
