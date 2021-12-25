@@ -101,6 +101,7 @@
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 0px;
 }
 
 .hiJames {
@@ -271,6 +272,22 @@ font-size: 45px;
   flex-direction: row;
   min-width: 400px;
 }
+
+@media screen and (max-width: 1024px) {
+.individualCard {
+  margin :10px;
+  font-size: 12px;
+  margin-right: 50px;
+  color: white;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  min-width: 280px;
+}
+.checkBox {
+}
+}
+
 
 .checkBox {
   margin-top: 35px;
