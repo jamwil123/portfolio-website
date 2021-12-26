@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectCards from "../Components/ProjectCards";
 
-export default function Projects() {
+export default function Projects({projectRef}) {
   let tag = "</>";
   return (
-    <main className="projectsMain">
+    <main className="projectsMain" ref={projectRef}>
       <div className="projectsTag">{tag}</div>
-      <div className="projectsTitle">Projects</div>
+      <div className="projectsTitle" >Projects</div>
       <ProjectCards />
     </main>
   );

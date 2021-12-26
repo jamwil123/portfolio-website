@@ -277,7 +277,6 @@ font-size: 45px;
 .individualCard {
   margin :10px;
   font-size: 12px;
-  margin-right: 50px;
   color: white;
   background-color: grey;
   display: flex;
@@ -285,6 +284,9 @@ font-size: 45px;
   min-width: 280px;
 }
 .checkBox {
+  justify-content: center;
+  position: relative;
+  top: -15px
 }
 }
 

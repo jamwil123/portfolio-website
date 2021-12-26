@@ -3,12 +3,12 @@ import Intro from "./Intro";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
-export default function Home() {
+export default function Home({projectRef, skillRef, topRef}) {
   return (
-    <main className="homeMain">
+    <main className="homeMain" ref={topRef}>
       <Intro />
-      <Projects  />
-      <Skills/>
+      <Projects  projectRef={projectRef} />
+      <Skills skillRef={skillRef}/>
     </main>
   );
 }

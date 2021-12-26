@@ -1,21 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { FaGithub } from 'react-icons/fa'
 
 
-export default function Header(myRef) {
+export default function Header({projectRef, skillRef, topRef}) {
+
+    const executeTopScroll = () => topRef.current.scrollIntoView()  
+    const executeProjectScroll = () => projectRef.current.scrollIntoView()    
+    const executeSkillScroll = () => skillRef.current.scrollIntoView()  
+   
     return (
+
         <div className='headerMain'>
         <main className='firstThreeButtons'>
-        <Link to='/' style={{ textDecoration: 'none' }}> 
-        <div className='headerTextName'>James Wilson </div>
-        </Link>
-        <Link to='/work' style={{ textDecoration: 'none' }}> 
-        <div className='headerTextWork' onClick={() => myRef.current.scrollIntoView()}>Projects</div>
-        </Link>
-        <Link to='/skills' style={{ textDecoration: 'none' }}> 
-        <div className='headerTextSkills'>Skills</div>
-        </Link>
+        <div className='headerTextName' onClick={executeTopScroll}>James Wilson </div> 
+        <div className='headerTextWork' onClick={executeProjectScroll}>Projects</div>
+        <div className='headerTextSkills' onClick={executeSkillScroll}>Skills</div>
         </main>
         
         <FaGithub onClick={()=>{window.open('https://github.com/jamwil123')}} className='gitHubIcon' />
