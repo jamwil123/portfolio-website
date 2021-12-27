@@ -2,6 +2,8 @@ import React from "react";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Form from './FormComp'
+
 
 export default function Home({projectRef, skillRef, topRef}) {
   return (
