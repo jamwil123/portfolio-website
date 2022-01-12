@@ -9,14 +9,15 @@ function App() {
   const topRef = useRef(null)
   const projectRef = useRef(null)
   const skillRef = useRef(null)
+  const contactRef = useRef(null)
 
    
    
   return (
     <BrowserRouter>
-      <Header projectRef={projectRef} skillRef={skillRef} topRef={topRef} />
+      <Header projectRef={projectRef} skillRef={skillRef} topRef={topRef} contactRef={contactRef} />
       <Routes>
-        <Route path="/" element={<Home projectRef={projectRef} skillRef={skillRef} topRef={topRef} />} />
+        <Route path="/" element={<Home projectRef={projectRef} skillRef={skillRef} topRef={topRef} contactRef={contactRef} />} />
       </Routes>
     </BrowserRouter>
   );

@@ -8,9 +8,9 @@ export default function ContactCards() {
            {contactDetails.map((contacts)=> {
                if(contacts.iconName === 'FaPhoneAlt') {
                    return (<div className='mainContact'>
-                        <FaPhoneAlt className='contactIcon' onClick={()=>{window.open(contacts.contactDetails)}}/>
+                        <FaPhoneAlt className='contactIconPhone' onClick={()=>{window.open(contacts.contactDetails)}}/>
                         <div className='contactName'>{contacts.name}</div>
-                        {contacts.link ? <div className='linkOrContactDetails' style={{cursor: 'pointer'}} onClick={()=>{window.open(contacts.contactDetails)}} >{contacts.slug}</div> : <div>{contacts.contactDetails}</div>}
+                        {contacts.link ? <div className='linkOrContactDetails' style={{cursor: 'pointer'}} onClick={()=>{window.open(contacts.contactDetails)}} >{contacts.slug}</div> : <div >{contacts.contactDetails}</div>}
                     </div>)
                }
                if(contacts.iconName === 'FaMailBulk') {
