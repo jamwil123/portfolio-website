@@ -8,14 +8,14 @@ export default function ContactCards() {
            {contactDetails.map((contacts)=> {
                if(contacts.iconName === 'FaPhoneAlt') {
                    return (<div className='mainContact'>
-                        <FaPhoneAlt className='contactIcon'/>
+                        <FaPhoneAlt className='contactIcon' onClick={()=>{window.open(contacts.contactDetails)}}/>
                         <div className='contactName'>{contacts.name}</div>
                         {contacts.link ? <div className='linkOrContactDetails' style={{cursor: 'pointer'}} onClick={()=>{window.open(contacts.contactDetails)}} >{contacts.slug}</div> : <div>{contacts.contactDetails}</div>}
                     </div>)
                }
                if(contacts.iconName === 'FaMailBulk') {
                 return (<div className='mainContact'>
-                     <FaMailBulk className='contactIcon'/>
+                     <FaMailBulk className='contactIcon' onClick={()=>{window.open(contacts.contactDetails)}}/>
                      <div className='contactName'>{contacts.name}</div>
                      {contacts.link ? <div className='linkOrContactDetails' style={{cursor: 'pointer'}} onClick={()=>{window.open(contacts.contactDetails)}}>{contacts.slug} </div> : <div className='linkOrContactDetails'>{contacts.contactDetails}</div>}
                  </div>)
@@ -24,7 +24,7 @@ export default function ContactCards() {
 
             if(contacts.iconName === 'FaGithub') {
                 return (<div className='mainContact'>
-                     <FaGithub className='contactIcon'/>
+                     <FaGithub className='contactIcon' onClick={()=>{window.open(contacts.contactDetails)}}/>
                      <div className='contactName'>{contacts.name}</div>
                      {contacts.link ? <div className='linkOrContactDetails' style={{cursor: 'pointer'}} onClick={()=>{window.open(contacts.contactDetails)}}>{contacts.slug}</div> : <div className='linkOrContactDetails'>{contacts.contactDetails}</div>}
                  </div>)
@@ -33,12 +33,13 @@ export default function ContactCards() {
 
             if(contacts.iconName === 'FaLinkedin') {
                 return (<div className='mainContact'>
-                     <FaLinkedin className='contactIcon'/>
+                     <FaLinkedin onClick={()=>{window.open(contacts.contactDetails)}} className='contactIcon' />
                      <div className='contactName'>{contacts.name}</div>
                      {contacts.link ? <div className='linkOrContactDetails' style={{cursor: 'pointer'}} onClick={()=>{window.open(contacts.contactDetails)}}>{contacts.slug}</div> : <div className='linkOrContactDetails'>{contacts.contactDetails}</div>}
                  </div>)
                  
             }
+            return true
            })} 
         </div>
     )
