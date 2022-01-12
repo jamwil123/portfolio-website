@@ -60,12 +60,12 @@
 }
 
 .gitHubIcon {
-  width:45px;
+  width: 45px;
   height: 45px;
   color: white;
 }
 .gitHubIcon:hover {
-  width:45px;
+  width: 45px;
   height: 45px;
   color: grey;
   cursor: pointer;
@@ -77,16 +77,11 @@
     font-family: "Montserrat", sans-serif;
   }
   .headerTextSkills,
-.headerTextWork {
-  display: none;
-}
-
-  
+  .headerTextWork {
+    display: none;
+  }
 }
 /* Header  */
-
-
-
 
 /* Home Page */
 .homeMain {
@@ -130,7 +125,6 @@
   flex-grow: 1;
   margin-right: 50px;
   /* margin-left: 400px; */
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -140,17 +134,12 @@
 }
 /* Home Page */
 
-
-
-
-
 /* Projects Page */
 
 .projectsMain {
   margin-top: 10%;
   height: 100%;
 }
-
 
 .projectsTitle,
 .projectsTag {
@@ -167,10 +156,10 @@
 }
 
 .projectsTag {
-color: grey;
-margin-bottom: 35px;
-margin-top: 20px;
-font-size: 45px;
+  color: grey;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  font-size: 45px;
 }
 
 /* Project Cards */
@@ -195,7 +184,7 @@ font-size: 45px;
 
 .projectName {
   color: white;
-  font-size:30px ;
+  font-size: 30px;
   margin-top: 20px;
 }
 
@@ -205,7 +194,6 @@ font-size: 45px;
     flex-direction: column;
     align-content: center;
     margin: 50px;
-
   }
   .projectImg {
     height: 150px;
@@ -218,12 +206,8 @@ font-size: 45px;
 
 /* Projects Page */
 
-
 /* Skills Page */
 .skillsMain {
-
-
-
 }
 .skillsTitle {
   color: white;
@@ -234,7 +218,6 @@ font-size: 45px;
   display: flex;
   margin-top: 0px;
   margin-bottom: 100px;
-  
 }
 
 .skillsChip {
@@ -260,11 +243,10 @@ font-size: 45px;
   margin-right: 150px;
   justify-content: center;
   align-self: center;
- 
 }
 
 .individualCard {
-  margin :10px;
+  margin: 10px;
   font-size: 20px;
   margin-right: 50px;
   color: white;
@@ -275,22 +257,21 @@ font-size: 45px;
 }
 
 @media screen and (max-width: 1024px) {
-.individualCard {
-  margin :10px;
-  font-size: 12px;
-  color: white;
-  background-color: grey;
-  display: flex;
-  flex-direction: row;
-  min-width: 280px;
+  .individualCard {
+    margin: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    min-width: 280px;
+  }
+  .checkBox {
+    justify-content: center;
+    position: relative;
+    top: -15px;
+  }
 }
-.checkBox {
-  justify-content: center;
-  position: relative;
-  top: -15px
-}
-}
-
 
 .checkBox {
   margin-top: 35px;
@@ -298,14 +279,7 @@ font-size: 45px;
   margin-left: 20px;
 }
 
-
-
-
 /* Skills Page */
-
-
-
-
 
 /* Contact Page */
 .contactMain {
@@ -317,7 +291,6 @@ font-size: 45px;
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
-
 }
 
 .nameField {
@@ -348,7 +321,6 @@ font-size: 45px;
   flex-direction: column;
   color: grey;
   margin-top: 175px;
- 
 }
 .contactMe {
   color: white;
@@ -359,12 +331,48 @@ font-size: 45px;
   display: flex;
   margin-top: 75px;
   margin-bottom: 100px;
-  
-
 }
 
+.mainContacts {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+}
 
+.mainContact {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  align-self: flex-end;
+  flex-grow: 1;
+}
+
+.contactIcon {
+  background: grey;
+  padding: 30px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  height: 50px;
+  width: 50px;
+}
+
+.contactName {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.linkOrContactDetails:hover,
+.contactIcon:hover {
+  color: #989494;
+  cursor: pointer;
+}
 
 /* Contact Page */
-
-

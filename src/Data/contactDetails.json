@@ -7,8 +7,9 @@
   },
   {
     "name": "Email",
-    "contactDetails": "jamesdavidwilson@gmx.com",
+    "contactDetails": "mailto:jamesdavidwilson@gmx.com",
     "link": true,
+    "slug": "jamesdavidwilson@gmx.com",
     "iconName": "FaMailBulk"
   },
   {
