@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Phone",
+    "contactDetails": "07720950607",
+    "link": false,
+    "iconName": "FaPhoneAlt"
+  },
+  {
+    "name": "Email",
+    "contactDetails": "jamesdavidwilson@gmx.com",
+    "link": true,
+    "iconName": "FaMailBulk"
+  },
+  {
+    "name": "GitHub",
+    "contactDetails": "https://github.com/jamwil123",
+    "slug": "Click here!",
+    "link": true,
+    "iconName": "FaGithub"
+  },
+  {
+    "name": "LinkedIn",
+    "contactDetails": "https://www.linkedin.com/in/james-wilson-13b5a2108/",
+    "link": true,
+    "slug": "Connect with me!",
+    "iconName": "FaLinkedin"
+  }
+]
