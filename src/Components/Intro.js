@@ -1,5 +1,6 @@
 import React from "react";
 import jamesFace from "../IMG_6790.jpg";
+import {Img} from "react-image-loading"
 
 export default function Intro() {
   return (
@@ -19,7 +20,7 @@ export default function Intro() {
           </main>
         </div>
         <div className="homeImg">
-          <img src={jamesFace} alt="james" className="jamesPicture" />
+          <Img src={jamesFace} alt="james" className="jamesPicture" />
         </div>
       </div>
     </div>
