@@ -13,16 +13,16 @@ export default function Intro() {
               <p> I am a Junior Developer!</p>
             </div>
             <p className="introSubText">
-              <p>Please take a look around my website, </p>
+              <p>Please take a look around my website,</p>
 
               <p>you can see my past projects and details to contact me</p>
-            </p>
-          </main>
-        </div>
-        <div className="homeImg">
-          <Img src={jamesFace} alt="james" className="jamesPicture" />
-        </div>
-      </div>
-    </div>
+              </p>
+              </main>
+              </div>
+              <div className="homeImg">
+              <Img src={jamesFace} alt="james" className="jamesPicture" />
+              </div>
+              </div>
+          </div>
   );
 }
