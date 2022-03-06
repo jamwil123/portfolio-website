@@ -11,7 +11,18 @@
     "giflink": "https://media1.giphy.com/media/t85U8bjc1k5L0wYxEH/giphy.gif?cid=790b7611da01debb54aa929b5ed917002d3f863ef496c4c9&rid=giphy.gif&ct=g",
     "staticlink": "https://i.ibb.co/tmPdZ4m/Screenshot-2021-12-27-at-20-42-34.png"
   },
-
+  {
+    "name": "Animal Wordle",
+    "link": "https://github.com/jamwil123/animal-Wordle",
+    "giflink": "https://media.tenor.com/images/f7972d39516dbea307c4b1c4cd89c25e/tenor.gif",
+    "staticlink": "https://i.ibb.co/9q7p0WR/Screenshot-2022-03-06-at-18-20-45.png"
+  },
+  {
+    "name": "Naughts And Cookies",
+    "link": "https://github.com/jamwil123/naughtsandcrosses",
+    "giflink": "https://media1.tenor.com/images/294e9beb71dd5999c495d5dc855748df/tenor.gif?itemid=25059987",
+    "staticlink": "https://i.ibb.co/98nszf5/Screenshot-2022-03-06-at-20-11-08.png"
+  }, 
   {
     "name": "GameShack",
     "link": "https://github.com/jamwil123/game-shack",
@@ -23,12 +34,8 @@
     "link": "https://github.com/jamwil123/Board-Games-API/tree/main/be-nc-games",
     "giflink": "https://media1.tenor.com/images/b16d67dc3b43edc4158e64402fe79538/tenor.gif?itemid=24249387",
     "staticlink": "https://i.ibb.co/TRKkz2H/Screenshot-2021-12-24-at-20-31-51.png"
-  },
-  {
-    "name": "Animal Wordle",
-    "link": "https://github.com/jamwil123/animal-Wordle",
-    "giflink": "https://media.tenor.com/images/f7972d39516dbea307c4b1c4cd89c25e/tenor.gif",
-    "staticlink": "https://i.ibb.co/9q7p0WR/Screenshot-2022-03-06-at-18-20-45.png"
   }
   
 ]
+
+
