@@ -2,6 +2,16 @@
 .App {
   font-family: "Montserrat", sans-serif;
 }
+
+@media screen and (min-width: 2000px) {
+  .main{
+    padding-left:30rem;
+    padding-right:30rem; 
+    background-color:#181818
+  }
+  
+}
+
 /* Header  */
 .headerMain {
   padding: 20px;
@@ -190,6 +200,12 @@
   color: white;
   font-size: 30px;
   margin-top: 20px;
+}
+
+.sub-desc {
+  color: rgb(196, 190, 190);
+  padding-top: 1rem;
+  
 }
 
 @media screen and (max-width: 1024px) {

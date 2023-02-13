@@ -22,6 +22,7 @@ export default function ProjectCards() {
               
             />
             <div className='projectName' >{project.name}</div>
+            {project.subdesc ? <div className="sub-desc">{project.subdesc}</div> : <></>}
           </main>
         );
       })}

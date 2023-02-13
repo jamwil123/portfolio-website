@@ -12,6 +12,13 @@
     "staticlink": "https://i.ibb.co/tmPdZ4m/Screenshot-2021-12-27-at-20-42-34.png"
   },
   {
+    "name": "Rivendell Festival Website",
+    "subdesc": "Password is: rivendell2023",
+    "link": "https://rivendellfestival.co.uk",
+    "giflink": "https://media4.giphy.com/media/L9rwDJzHVPODYV95sy/giphy.gif?cid=790b7611db4d3964981d133bc372de7df0c3516681526061&rid=giphy.gif&ct=g",
+    "staticlink":"https://i.ibb.co/hfpnG1b/Screenshot-2023-02-13-at-21-40-26.png"
+  },
+  {
     "name": "Animal Wordle",
     "link": "https://github.com/jamwil123/animal-Wordle",
     "giflink": "https://media.tenor.com/images/f7972d39516dbea307c4b1c4cd89c25e/tenor.gif",
@@ -37,5 +44,6 @@
   }
   
 ]
+
 
 
