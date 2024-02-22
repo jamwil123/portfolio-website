@@ -9,7 +9,7 @@ export default function Intro() {
           <main className="introTextMain">
             <div className="nameAndWelcome">
               <p className="hiJames">Hi, Im James. </p>
-              <p> I am a Junior Developer!</p>
+              <p> I am a software developer!</p>
             </div>
             <p className="introSubText">
               <p>Please take a look around my website,</p>
